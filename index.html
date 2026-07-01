@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HKTA THMSS Mock JUPAS (2026-27)</title>
+    <title>HKTA THMSS Mock JUPAS (26-27)</title>
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -200,16 +200,15 @@
 <body>
 
 <div class="container" id="mainContainer">
-    <h2>HKTA THMSS Mock JUPAS (2026-27)</h2>
+    <h2>HKTA THMSS Mock JUPAS (26-27)</h2>
     
-    <div id="successBanner">🎉 You have successfully submitted your mock JUPAS choices. For your records, please find a summary of your submitted information below :
-</div>
+    <div id="successBanner">🎉 You have successfully submitted your mock JUPAS choices. For your records, please find a summary of your submitted information below :</div>
     
     <div class="instruction-paragraph form-exclude">
         Reference: <a href="https://www.jupas.edu.hk/en/" target="_blank">https://www.jupas.edu.hk/en/</a><br><br>
-        Please complete the Mock JUPAS by 14th Oct, 2026 (Wed) 23:59.<br>
+        Please complete the Mock JUPAS by 14/Oct (Wed) 23:59.<br>
         You are required to fill in the choices from Band A to Band C (A1 - C10). Bands D and E are optional.<br>
-               Note: If you can't confirm your new class number, write the old one (which is in S.5) instead.
+        Note: If you can't confirm your new class number, write the old one (which is in S.5) instead.
     </div>
     
     <form id="programForm" onsubmit="handleSubmit(event)">
@@ -223,7 +222,7 @@
             </div>
             
             <div class="info-field">
-                <label>Class (2026-27):</label>
+                <label>Class:</label>
                 <select id="studentClass" name="studentClass" required>
                     <option value="">-- Select Class --</option>
                     <option value="6A">6A</option>
@@ -236,7 +235,7 @@
             </div>
 
             <div class="info-field">
-                <label>Class Number (2026-27):</label>
+                <label>Class Number:</label>
                 <select id="classNumber" name="classNumber" required>
                     <option value="">-- Select No. --</option>
                 </select>
@@ -455,7 +454,7 @@
             "JS3741 : BEng Scheme in Mechanical Engineering",
             "JS3789 : BSc in Surveying",
             "JS3791 : BSc in Building Engineering and Management",
-            "JS3868 : BSc Scheme in Computing and AI"
+            "JS3791 : BSc Scheme in Computing and AI"
         ],
         "CUHK": [
             "JS4006 : Anthropology",
@@ -526,6 +525,35 @@
             "JS4898 : Diplomacy and International Studies",
             "JS4903 : Bachelor of Laws"
         ],
+        "HKUST": [
+            "JS5101 : International Research Enrichment",
+            "JS5102 : Science (Group A)",
+            "JS5103 : Science (Group B)",
+            "JS5181 : Science (Group A) with an Extended Major in Artificial Intelligence",
+            "JS5200 : Engineering",
+            "JS5282 : Engineering with an Extended Major in Artificial Intelligence",
+            "JS5300 : Business and Management",
+            "JS5311 : BBA in Professional Accounting",
+            "JS5312 : BBA in Economics",
+            "JS5313 : BBA in Finance",
+            "JS5314 : BBA in Global Business",
+            "JS5315 : BBA in Management",
+            "JS5316 : BBA in Marketing",
+            "JS5317 : BBA in Operations Management",
+            "JS5318 : BBA in Information Systems",
+            "JS5331 : BSc in Economics and Finance",
+            "JS5332 : BSc in Quantitative Finance",
+            "JS5411 : Global China Studies: Humanities and Social Science",
+            "JS5412 : Quantitative Social Analysis",
+            "JS5811 : BSc in Biotechnology and Business",
+            "JS5812 : BSc in Environmental Management and Technology",
+            "JS5813 : BSc in Risk Management and Business Intelligence",
+            "JS5814 : BSc in Sustainable and Green Finance",
+            "JS5822 : BSc in Integrative Systems and Design",
+            "JS5841 : BSc in Data Science and Technology",
+            "JS5851 : BSc in Mathematics and Economics",
+            "JS5901 : BEng/BSc & BBA Dual Degree Program in Technology & Management"
+        ],
         "HKU": [
             "JS6004 : Bachelor of Arts in Architectural Studies",
             "JS6016 : Bachelor of Science in Surveying",
@@ -585,35 +613,6 @@
             "JS6963 : Bachelor of Engineering",
             "JS6999 : Bachelor of Computing and Data Science"
         ],
-        "HKUST": [
-            "JS5101 : International Research Enrichment",
-            "JS5102 : Science (Group A)",
-            "JS5103 : Science (Group B)",
-            "JS5181 : Science (Group A) with an Extended Major in Artificial Intelligence",
-            "JS5200 : Engineering",
-            "JS5282 : Engineering with an Extended Major in Artificial Intelligence",
-            "JS5300 : Business and Management",
-            "JS5311 : BBA in Professional Accounting",
-            "JS5312 : BBA in Economics",
-            "JS5313 : BBA in Finance",
-            "JS5314 : BBA in Global Business",
-            "JS5315 : BBA in Management",
-            "JS5316 : BBA in Marketing",
-            "JS5317 : BBA in Operations Management",
-            "JS5318 : BBA in Information Systems",
-            "JS5331 : BSc in Economics and Finance",
-            "JS5332 : BSc in Quantitative Finance",
-            "JS5411 : Global China Studies: Humanities and Social Science",
-            "JS5412 : Quantitative Social Analysis",
-            "JS5811 : BSc in Biotechnology and Business",
-            "JS5812 : BSc in Environmental Management and Technology",
-            "JS5813 : BSc in Risk Management and Business Intelligence",
-            "JS5814 : BSc in Sustainable and Green Finance",
-            "JS5822 : BSc in Integrative Systems and Design",
-            "JS5841 : BSc in Data Science and Technology",
-            "JS5851 : BSc in Mathematics and Economics",
-            "JS5901 : BEng/BSc & BBA Dual Degree Program in Technology & Management"
-        ],
         "LU": [
             "JS7101 : Bachelor of Arts (Honours) in Chinese",
             "JS7123 : Bachelor of Liberal Arts (Honours) in Global Development and Sustainability",
@@ -665,18 +664,111 @@
             "JS8714 : Bachelor of Science (Honours) in Artificial Intelligence and Educational Technology",
             "JS8726 : Bachelor of Science (Honours) in Sports Science and Coaching",
             "JS8727 : Bachelor of Science (Honours) in Speech Pathology and Rehabilitation"
+        ],
+        "HKMU": [
+            "JS9009 : Bachelor of Social Sciences with Honours",
+            "JS9010 : Bachelor of Social Sciences with Honours in Psychology",
+            "JS9011 : Bachelor of Arts with Honours in Chinese",
+            "JS9013 : Bachelor of Arts with Honours in Language Studies and Translation",
+            "JS9016 : Bachelor of Arts with Honours in Creative Advertising and Media Design",
+            "JS9019 : Bachelor of Arts with Honours in English Language and Culture",
+            "JS9220 : Bachelor of Business Administration with Honours in Professional Accounting",
+            "JS9230 : Bachelor of Business Administration with Honours in Business Management",
+            "JS9240 : Bachelor of Business Administration with Honours in Global Business",
+            "JS9262 : Bachelor of Business Administration with Honours in Human Resource Management",
+            "JS9266 : Bachelor of Business Administration with Honours in Marketing",
+            "JS9276 : Bachelor of Business Administration with Honours in Real Estate and Surveying",
+            "JS9280 : Bachelor of Applied Psychology with Honours, Bachelor of Business Management with Honours",
+            "JS9291 : Bachelor of Business Administration with Honours in Sustainable Tourism and Hospitality Management",
+            "JS9294 : Bachelor of Business Administration with Honours in Sports and eSports Management",
+            "JS9520 : Bachelor of Education with Honours (Putonghua and Chinese Language Education) and Bachelor of Language Studies with Honours (Chinese Linguistic Studies)",
+            "JS9530 : Bachelor of Education with Honours in English Language Teaching and Bachelor of English Language Studies with Honours",
+            "JS9540 : Bachelor of English Language Studies with Honours",
+            "JS9550 : Bachelor of Language Studies with Honours (Applied Chinese Language Studies)",
+            "JS9560 : Bachelor of Education with Honours (Chinese Language Teaching) and Bachelor of Language Studies with Honours (Applied Chinese Language Studies)",
+            "JS9580 : Bachelor of Education with Honours in Early Childhood Education (Leadership and Special Educational Needs)",
+            "JS9719 : Bachelor of Science with Honours in Cyber and Computer Security",
+            "JS9720 : Bachelor of Engineering with Honours in Electronic and Computer Engineering",
+            "JS9731 : Bachelor of Science with Honours in Environmental Science and Green Management",
+            "JS9732 : Bachelor of Science with Honours in Biomedical Sciences and Biotechnology",
+            "JS9733 : Bachelor of Science with Honours in Science (STEAM)",
+            "JS9775 : Bachelor of Applied Science with Honours in Robotics and Automation Engineering",
+            "JS9776 : Bachelor of Science with Honours in Building Engineering and Management"
+        ],
+        "SSSDP": [
+            "JSSA01 : Offered by SFU: Bachelor of Nursing (Honours)",
+            "JSSA02 : Offered by SFU: Bachelor of Science (Honours) in Digital Entertainment Technology",
+            "JSSA03 : Offered by SFU: Bachelor of Science (Honours) in Physiotherapy",
+            "JSSA04 : Offered by SFU: Bachelor of Science (Honours) in Artificial Intelligence",
+            "JSSA05 : Offered by SFU: Bachelor of Arts (Honours) in Translation Technology",
+            "JSSA06 : Offered by SFU: Bachelor of Business Administration (Honours) in Applied Hotel and Tourism Management",
+            "JSSC02 : Offered by HKCHC: Bachelor of Science (Honours) in Architecture",
+            "JSSH01 : Offered by HSUHK: Bachelor of Business Administration (Honours) in Supply Chain Management",
+            "JSSH02 : Offered by HSUHK: Bachelor of Science (Honours) in Actuarial Studies and Insurance",
+            "JSSH03 : Offered by HSUHK: Bachelor of Science (Honours) in Applied Computing",
+            "JSSH04 : Offered by HSUHK: Bachelor of Science (Honours) in Data Science and Business Intelligence",
+            "JSSH05 : Offered by HSUHK: Bachelor of Science (Honours) in Business Analytics and Information Management",
+            "JSSH06 : Offered by HSUHK: Bachelor of Arts (Honours) in Art and Design",
+            "JSST01 : Offered by TWC: Bachelor of Health Science (Honours) in Nursing",
+            "JSST02 : Offered by TWC: Bachelor of Science (Honours) in Medical Laboratory Science",
+            "JSST03 : Offered by TWC: Bachelor of Science (Honours) in Radiation Therapy",
+            "JSST04 : Offered by TWC: Bachelor of Science (Honours) in Occupational Therapy",
+            "JSST05 : Offered by TWC: Bachelor of Science (Honours) in Physiotherapy",
+            "JSST06 : Offered by TWC: Bachelor of Science (Honours) in Applied Gerontology",
+            "JSST07 : Offered by TWC: Bachelor of Health Information and Services Management (Honours)",
+            "JSST08 : Offered by TWC: Bachelor of Science (Honours) in Medical Imaging",
+            "JSSU12 : Offered by HKMU: Bachelor of Arts with Honours in Creative Writing and Film Arts",
+            "JSSU14 : Offered by HKMU: Bachelor of Fine Arts with Honours in Animation and Visual Effects",
+            "JSSU15 : Offered by HKMU: Bachelor of Fine Arts with Honours in Imaging Design and Digital Art",
+            "JSSU18 : Offered by HKMU: Bachelor of Arts with Honours in New Music and Interactive Entertainment",
+            "JSSU40 : Offered by HKMU: Bachelor of Nursing with Honours in General Health Care",
+            "JSSU50 : Offered by HKMU: Bachelor of Nursing with Honours in Mental Health Care",
+            "JSSU55 : Offered by HKMU: Bachelor of Science with Honours in Physiotherapy",
+            "JSSU61 : Offered by HKMU: Bachelor of Applied Science with Honours in Integrated Testing, Inspection and Certification",
+            "JSSU66 : Offered by HKMU: Bachelor of Science with Honours in Diagnostic Radiography",
+            "JSSU67 : Offered by HKMU: Bachelor of Science with Honours in Medical Laboratory Science",
+            "JSSU69 : Offered by HKMU: Bachelor of Science with Honours in Food Testing Science",
+            "JSSU70 : Offered by HKMU: Bachelor of Science with Honours in Data Science and Artificial Intelligence",
+            "JSSU72 : Offered by HKMU: Bachelor of Science with Honours in Computer Science",
+            "JSSU77 : Offered by HKMU: Bachelor of Science with Honours in Construction Management and Quantity Surveying",
+            "JSSU78 : Offered by HKMU: Bachelor of Engineering with Honours in Building Services Engineering and Sustainable Development",
+            "JSSU79 : Offered by HKMU: Bachelor of Engineering with Honours in Civil Engineering",
+            "JSSU90 : Offered by HKMU: Bachelor of Business Administration with Honours in International Hospitality and Attractions Management",
+            "JSSU93 : Offered by HKMU: Bachelor of Business Administration with Honours in Aviation Services Management",
+            "JSSU95 : Offered by HKMU: Bachelor of Business Administration with Honours in Sports and Recreation Management",
+            "JSSU96 : Offered by HKMU: Bachelor of Business Administration with Honours in Finance and Financial Technology",
+            "JSSU97 : Offered by HKMU: Bachelor of Business Administration with Honours in Global Marketing and Supply Chain Management",
+            "JSSV01 : Offered by VTC-THEi: Bachelor of Arts (Honours) in Fashion Design",
+            "JSSV02 : Offered by VTC-THEi: Bachelor of Arts (Honours) in Product Design",
+            "JSSV03 : Offered by VTC-THEi: Bachelor of Arts (Honours) in Landscape Architecture",
+            "JSSV04 : Offered by VTC-THEi: Bachelor of Arts (Honours) in Culinary Arts and Management",
+            "JSSV05 : Offered by VTC-THEi: Bachelor of Engineering (Honours) in Civil Engineering",
+            "JSSV07 : Offered by VTC-THEi: Bachelor of Science (Honours) in Horticulture, Arboriculture and Landscape Management",
+            "JSSV08 : Offered by VTC-THEi: Bachelor of Science (Honours) in Surveying",
+            "JSSV09 : Offered by VTC-THEi: Bachelor of Social Sciences (Honours) in Sports and Recreation Management",
+            "JSSV10 : Offered by VTC-THEi: Bachelor of Engineering (Honours) in Building Services Engineering",
+            "JSSV13 : Offered by VTC-THEi: Bachelor of Social Sciences (Honours) in Sports Coaching",
+            "JSSV14 : Offered by VTC-THEi: Bachelor of Social Sciences (Honours) in Sports Therapy",
+            "JSSW01 : Offered by UOWCHK: Bachelor of Aviation (Honours) in Operations and Management",
+            "JSSW02 : Offered by UOWCHK: Bachelor of Maritime Services and Operations Management (Honours)",
+            "JSSY01 : Offered by HKSYU: Bachelor of Commerce (Honours) in Financial Technology",
+            "JSSY02 : Offered by HKSYU: Bachelor of Science with Honours in Applied Data Science"
         ]
     };
 
+    // Sorted according to your exact ordering request
     const uniFullNames = {
         "CityU": "City University of Hong Kong (CityU)",
         "HKBU": "Hong Kong Baptist University (HKBU)",
         "PolyU": "The Hong Kong Polytechnic University (PolyU)",
         "CUHK": "The Chinese University of Hong Kong (CUHK)",
-        "HKU": "The University of Hong Kong (HKU)",
         "HKUST": "The Hong Kong University of Science and Technology (HKUST)",
+        "HKU": "The University of Hong Kong (HKU)",
         "LU": "Lingnan University (LU)",
-        "EdUHK": "The Education University of Hong Kong (EdUHK)"
+        "EdUHK": "The Education University of Hong Kong (EdUHK)",
+        "HKMU": "Hong Kong Metropolitan University (HKMU)",
+        "SSSDP": "Study Subsidy Scheme for Designated Professions / Sectors Programmes (SSSDP)"
+
     };
 
     const classNumSelect = document.getElementById('classNumber');
@@ -684,7 +776,6 @@
         classNumSelect.options.add(new Option(i, i));
     }
 
-    // Required structural configuration for rows A1 - C10
     const compulsoryChoices = [
         { id: "A1", band: "A" }, { id: "A2", band: "A" }, { id: "A3", band: "A" },
         { id: "B4", band: "B" }, { id: "B5", band: "B" }, { id: "B6", band: "B" }, 
@@ -752,7 +843,6 @@
         tbody.appendChild(row);
     });
 
-    // Optional dynamic layout initialization for Bands D & E (D11 - E20)
     const optionalChoices = [
         { id: "D11", band: "D" }, { id: "D12", band: "D" }, { id: "D13", band: "D" }, { id: "D14", band: "D" }, { id: "D15", band: "D" },
         { id: "E16", band: "E" }, { id: "E17", band: "E" }, { id: "E18", band: "E" }, { id: "E19", band: "E" }, { id: "E20", band: "E" }
@@ -807,7 +897,6 @@
         const seenPrograms = new Set();
         let duplicateFound = null;
 
-        // Loop through standard compulsory choices
         for (let i = 0; i < compulsoryChoices.length; i++) {
             const c = compulsoryChoices[i];
             const uniValue = formData.get(`uni_${c.id}`);
@@ -832,14 +921,12 @@
             return;
         }
 
-        // Loop through self-input data fields for custom choices
         const optionalChoicesData = {};
         optionalChoices.forEach(c => {
             const val = formData.get(`custom_${c.id}`);
             optionalChoicesData[c.id] = val ? val.trim() : "";
         });
 
-        // Map text values to output display labels
         document.getElementById('lbl_englishName').innerText = englishName;
         document.getElementById('lbl_studentClass').innerText = studentClass;
         document.getElementById('lbl_classNumber').innerText = classNumber;
